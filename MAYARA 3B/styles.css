@@ -1,0 +1,73 @@
+body{
+color:white;
+background: rgb(0, 0, 0);
+margin: 0px;
+font-family: "Antonio", sans-serif;
+margin-bottom: 50px;
+}
+
+header{
+border-bottom:solid 2px rgb(255, 255, 255);
+padding: 20px;
+font-size: 50px;
+color: rgb(124, 124, 124);
+}
+
+.primeiro-video{
+
+background: rgb(128, 123, 123);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.nome{
+margin-right: 5%;
+
+}
+
+h1{
+
+    font-size: 40px
+}
+p{
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+  }
+
+  .dranw-mask{
+display: flex;
+overflow-x: auto;
+gap: 10px;
+  }
+
+.desenhos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dranw-mask img {
+opacity: 0.5;
+height: 200px;
+}
+
+.dranw-mask img:hover {
+  opacity: 1.0;
+  border: 5px solid rgb(255, 255, 255);
+
+  }
+
+.desenhos h2{
+  color: rgb(248, 247, 248);
+
+}
+
+.desenhos {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+}
